@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+    
+<html lang="en">
+<head>
+ 
+    <title>where the cat</title>
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  
+   
+</head>
+
+<body> 
+
+<header>
+  <div class="clearfix">
+    <div class="container">
+    <div class="row">
+        <div class="col header">
+        <img id="logo" src="gav.png" alt="Наш лого" />
+        <nav>
+            <span>
+            <a href = "http://kubsu.ru/"> Официальный сайт </a> 
+            <a href = "https://kubsu.ru/ru/contacts"> Контакты </a> 
+            <a href = "https://kubsu.ru/ru/abiturient"> Абитуриентам </a>
+            </span>
+        </nav>
+        <h1>Кубанский государственный университет</h1>
+    </header>
+
+
+
+    <div style="clear:both"></div>
+      
+
+
+<main class="container"> 
+
+  <div class="row">
+    <div class="col-12 py-2">
+
+
+<ul>
+     <li><a href="http://kubsu.ru/"> 1. КубГУ</a></li>
+     <li><a href="https://kubsu.ru/"> 2. Ссылка КубГУ </a></li>
+     <a href="https://kubsu.ru/">
+     <li> <img src="meow.jpg" width="400" height="200" width="600">  </a> </li>
+
+     <li> <a href="about/lower/thirdindex.html"> 4. Ссылка на внутреннюю страницу </a></li>
+     <li> <a href = "#myform"> 6. Форма </a> </li>
+
+     <li> <a href="./index.html?parameter1=1&parameter2=2&parameter3=3"> 7. Ссылка с тремя параметрами </a> </li>
+     <li> <a href="./index.html?id=12345"> 8. Ссылка с параметром id в url </a> </li>
+     <li> <a href="page.html" > 9. Относительная ссылка на страницу в текущем каталоге </a> </li>
+
+     <li> <a href="about/secondindex.html"> 10. На страницу в каталоге about </a></li>
+
+     <li> <p> 13. Это текст абзаца. В нем есть <a href="https://kubsu.ru/"> контекстная ссылка на кубгу</a>.</p> </li>
+
+     <li><img src="vvrv.png" alt="Изображение" usemap="#my_map"></li>
+
+     <map name="my_map">
+        <area shape="rect" coords="200, 50, 300, 100" href="page.html" alt="Ссылка 2">
+        <area shape="circle" coords="75, 75, 75" href="https://kubsu.ru" alt="Ссылка 3">
+    </map>  
+    <li> <a href="##">16. С пустым href </a> </li>
+    <li> <span onclick="window.location.href='https://kubsu.ru/'"> 17. Ссылка без href Перейти на сайт</span> </li>
+    <li> <a href="page.html" rel="nofollow"> 18. Ссылка, по которой запрещен переход поисковикам. </a> </li>
+    <li> <a href="index.html" data-noindex="true"> 19. Запрещенная для индексации </a> </li>
+    <li> 20. Нумерованный список ссылок с подписями title  </li>
+    <ol>
+      <li>
+        <a href="https://www.OpenAI.com/" title="Поисковая система OpenAI">OpenAI</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/" title="Видеохостинг YouTube">YouTube</a>
+      </li>
+      <li>
+        <a href="https://www.wikipedia.org/" title="Свободная энциклопедия Википедия">Wikipedia</a>
+      </li>
+    </ol>
+    <li> <a href = "ftp://username:password@kubsu.ru/"> 21. КубГу ФТП</a></li>
+
+    </ul>
+    <br>
+
+
+
+    <div class="col-12 py-2 order-first order-sm-0"> 
+    <table>
+      <tr>
+        <th colspan="2">Колонка один-два с объед. ячейками</th>
+        <th> Колонка 2</th>
+        <th> Колонка 3</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Ячейка 1-1</td>
+        <td>Ячейка 1-2</td>
+        <td>Ячейка 1-3</td>
+        <td>Ячейка 1-4</td>
+      </tr>
+      <tr>
+        <td>Ячейка 2-2</td>
+        <td>Ячейка 2-3</td>
+        <td>Ячейка 2-4</td>
+      </tr>
+      <tr>
+        <td>Ячейка 3-1</td>
+        <td>Ячейка 3-2</td>
+        <td colspan="2">Ячейка 3-3-4</td>
+      </tr>
+      <tr>
+        <td>Ячейка 4-1</td>
+        <td>Ячейка 4-2</td>
+        <td>Ячейка 4-3</td>
+        <td>Ячейка 4-4</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Ячейка 5-1</td>
+        <td>Ячейка 5-2</td>
+        <td>Ячейка 5-3</td>
+        <td>Ячейка 5-4</td>
+      </tr>
+      <tr>
+        <td>Ячейка 6-2</td>
+        <td>Ячейка 6-3</td>
+        <td>Ячейка 6-4</td>
+      </tr>
+    </table>
+  </div>
+
+<br>
+<br>
+<br>
+
+ <section id="myform" class="col-12 py-2">
+ <form action = "" method = "POST">       
+
+<label>
+Фамилия Имя Отчество (ФИО):<br />
+<input name="field-name-1"
+value="Иванов Иван Иванович" />
+</label><br />
+<label for="phone">Номер телефона:</label><br>
+<input type="text" id="phone" name="phone" required>
+<br>
+<label>
+Текстовое поле email:<br />
+<input name="field-email"
+value="test@example.com"
+type="email" />
+</label><br />
+<label>
+<label for="birthdate">Дата рождения:</label><br>
+<input type="date" id="birthdate" name="birthdate" required><br><br>
+</label><br />
+Выберите пол:<br />
+<label><input type="radio" checked="checked"
+name="radio-group-1" value="Значение1" />
+Мужской</label>
+<label><input type="radio"
+name="radio-group-1" value="Значение2" />
+Женский</label><br />
+
+
+<label>
+Список (  с множественным выбором):
+<br />
+<select name="field-name-4[]"
+multiple="multiple">
+<option value="Значение1">Pascal</option>
+<option value="Значение2" selected="selected">С</option>
+<option value="Значение3" selected="selected">С++</option>
+<option value="Значение4" selected="selected">JavaScript</option>
+<option value="Значение5" selected="selected">PHP</option>
+<option value="Значение6" selected="selected">Pyhto</option>
+<option value="Значение7" selected="selected">Java</option>
+<option value="Значение8" selected="selected">Haskel</option>
+<option value="Значение9" selected="selected">Clojure</option>
+<option value="Значение10" selected="selected">Prolog</option>
+<option value="Значение11" selected="selected">Scala</option>
+</select>
+</label><br />
+
+<label>
+Биография:<br />
+<textarea name="field-name-2">начальное значение</textarea>
+</label><br />
+
+
+С чекбоксом ознакомлен(а):<br />
+<label><input type="checkbox" checked="checked"
+name="check-1" />
+Подпись чекбокса ставим справа</label><br />
+Кнопка отправки формы,
+при нажатии заполненные в форму данные
+отправятся в формате urlencoded методом
+POST или GET по адресу URL_отправки_данных:
+<input type="submit" value="Сохранить" />
+</form>
+     
+</main>
+
+<footer>
+
+<p>&copy;  Бухтоярова Ирина</p>
+<time datetime="2024">2024</time>
+</footer>
+
+</body>
+</html> 
